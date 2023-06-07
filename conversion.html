@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Data Units Conversion - Conversion</title>
+    <link rel="stylesheet" href="conversionstyle.css">
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpg" alt="Your Logo">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="list.html">List</a></li>
+        <li><a href="conversion.html">Conversion</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Data Units Conversion - Conversion</h1>
+      <form>
+        <label for="unit1">From:</label>
+        <select id="unit1">
+          <option value="bit">Bit</option>
+          <option value="byte">Byte</option>
+          <option value="kilobyte">Kilobyte</option>
+          <option value="megabyte">Megabyte</option>
+          <option value="gigabyte">Gigabyte</option>
+        </select>
+        <input type="number" id="value1" placeholder="Enter value">
+        <br>
+        <label for="unit2">To:</label>
+        <select id="unit2">
+          <option value="bit">Bit</option>
+          <option value="byte">Byte</option>
+          <option value="kilobyte">Kilobyte</option>
+          <option value="megabyte">Megabyte</option>
+          <option value="gigabyte">Gigabyte</option>
+        </select>
+        <br>
+        <button type="button" id="convertBtn">Convert</button>
+      </form>
+      <div id="result"></div>
+    </main>
+    <footer>
+      <p>&copy; Your Name 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
